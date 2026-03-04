@@ -7,16 +7,25 @@ plaintext
 Copy
 Edit
 Assets
+
 ├── Animation/                   # Character and UI animations  
 ├── Configs/                     # Configuration ScriptableObject files  
 ├── OtherAssets/
-│   ├── Fantasy Wooden GUI       # Fantasy-style user interface  
-│   ├── FlappyBirdAssets/
-│   │   ├── Sound                # Game sounds  
-│   │   └── Sprite               # Bird and obstacle sprites  
-│   └── Thaleah_PixelFont/      # Pixel font for the UI  
+
+│    ├── Fantasy Wooden GUI       # Fantasy-style user interface  
+
+│    ├── FlappyBirdAssets/
+
+│    │   ├── Sound                # Game sounds  
+
+│    │   └── Sprite               # Bird and obstacle sprites  
+
+│    └── Thaleah_PixelFont/      # Pixel font for the UI  
+
 ├── Plugins/
-│   ├── Demigiant/DOTween       # Animation library  
+
+│   ├── Demigiant/DOTween       # Animation library 
+
 │   └── Zenject/                # Dependency Injection (DI)
 🛠️ Technologies
 
@@ -32,10 +41,6 @@ Custom GUI — stylized user interface
 
 🚀 How to Run
 Clone the repository:
-
-bash
-Copy
-Edit
 git clone https://github.com/your-username/flappy-bird-unity.git
 Open the project folder in Unity.
 Make sure DOTween and Zenject are installed (see Plugins/).
